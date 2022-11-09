@@ -10,6 +10,7 @@ public class SomeHandler implements Controller {
        mv.addObject("message","hello,springmvc");
         mv.setViewName("welcome");
         System.out.println("huanyingguanling");
+        System.out.println("uasi");
         return mv;
     }
 }
