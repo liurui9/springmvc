@@ -11,6 +11,7 @@ public class SomeHandler implements Controller {
         mv.setViewName("welcome");
         System.out.println("huanyingguanling");
         System.out.println("uasi");
+        System.out.println("sdvsk");
         return mv;
     }
 }
