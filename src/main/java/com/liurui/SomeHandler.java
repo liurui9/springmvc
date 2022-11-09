@@ -9,6 +9,7 @@ public class SomeHandler implements Controller {
         ModelAndView mv = new ModelAndView();
        mv.addObject("message","hello,springmvc");
         mv.setViewName("welcome");
+        System.out.println("huanyingguanling");
         return mv;
     }
 }
